@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "categorys">
+        <item>공사장</item>
+        <item>보행사고다발지역</item>
+        <item>스쿨존사고주의구간</item>
+        <item>어린이보호구역</item>
+        <item>범죄주의구간</item>
+        <item>파출소</item>
+        <item>치안센터</item>
+        <item>경찰서</item>
+        <item>지구대</item>
+        <item>안심벨</item>
+
+
+    </string-array>
+</resources>

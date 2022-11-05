@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/backColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/layout_border"
+        >
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:background="@drawable/layout_border"
+            android:id="@+id/topbar"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/topbartext"
+                android:text="안녕하세요"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:textSize="40dp"
+
+                />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/is_danger"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:textSize="26dp"
+            android:gravity="center"
+
+            />
+        <TextView
+            android:id="@+id/marker_category"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:text="dd"
+            android:layout_marginLeft="20dp"
+
+
+
+            />
+
+        <TextView
+            android:id="@+id/poster_nickname"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:layout_height="0dp"
+            android:layout_weight="0.6"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:text="zz"
+             />
+
+
+
+        <TextView
+            android:id="@+id/marker_inform"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginRight="26dp"
+
+            android:textSize="18dp"
+            android:background="#eeeeee"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="이미지" />
+
+        <TextView
+            android:id="@+id/image_url"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:gravity="center"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+            android:id="@+id/marker_fix"
+                android:layout_marginRight="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:backgroundTint="#D5D0D0"
+            android:text="수정" />
+
+            <Button
+                android:id="@+id/marker_delete"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#D5D0D0"
+                android:text="삭제"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:background="@drawable/title_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+
+
+        >
+        <TextView
+            android:id="@+id/textView"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="어린이 안전 지도"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+
+        <Button
+            android:id="@+id/loginbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="로그인"
+            android:textColor="@color/black" />
+        <Button
+            android:id="@+id/logoutbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="로그아웃"
+            android:textColor="@color/black" />
+
+
+
+    </LinearLayout>
+    <!--<LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <Button
+
+            android:backgroundTint="#baffd6"
+            android:id="@+id/markersend"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="보내는 마커" />
+        <Button
+
+            android:backgroundTint="#baffd6"
+            android:id="@+id/markerget"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="받는 마커" />
+        <Button
+
+            android:backgroundTint="#baffd6"
+            android:id="@+id/showallmarker"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="마커 다보여주기" />
+
+
+    </LinearLayout>-->
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        tools:context=".MapsActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+
+</LinearLayout>

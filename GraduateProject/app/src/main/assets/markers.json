@@ -1,0 +1,11 @@
+{"markers": [
+  {
+    "isDanger" : "1",
+    "markerInform" : "test",
+    "imageUrl" : "test.com",
+    "markerLatitude" : "37.208702321",
+    "markerLongitude" : "126.97602321",
+    "posterNickName" : "testName",
+    "markerCategory": "안전"
+  }
+]}

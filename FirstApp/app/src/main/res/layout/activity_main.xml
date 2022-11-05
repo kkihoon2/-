@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "vertical"
+    tools:context=".MainActivity">
+ <LinearLayout
+     android:background="#baffd6"
+     android:orientation="horizontal"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+
+     >
+
+     <Button
+         android:layout_marginLeft="300dp"
+         android:backgroundTint="#baffd6"
+         android:id="@+id/loginbtn"
+         android:textColor="@color/black"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="로그인" />
+
+
+ </LinearLayout>
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <Button
+
+            android:backgroundTint="#baffd6"
+            android:id="@+id/markersend"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="보내는 마커" />
+        <Button
+
+            android:backgroundTint="#baffd6"
+            android:id="@+id/markerget"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="받는 마커" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/map_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
